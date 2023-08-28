@@ -1,0 +1,169 @@
+* {
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+
+}
+
+/* header */
+header {
+    background-color: #1f2937;
+    padding: 0 200px 150px 200px;
+
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+.nov {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9fafb;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 40px 0;
+    font-size: 18px;
+
+}
+
+.logo {
+    font: 24px;
+    color: #f9fafb;
+    margin: 20px 0;
+}
+
+.header-img {
+    width: 550px;
+    height: 280px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    font-weight: 800;
+    color: #f9fafb;
+    width: 500px;
+    font-size: 20px;
+}
+
+.hero-head {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    padding: 12px 50px;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 45px 0;
+    font-size: 20px;
+}
+
+/* section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.section_img {
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    /* width: 100px; */
+    max-width: 165px;
+    color: #1f2937;
+
+}
+
+.info_content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.quote_section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+
+}
+
+.quote_text {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0 270px;
+}
+
+.source_qoute {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 820px;
+}
+
+.call {
+    background-color: #3882f6;
+    display: flex;
+    margin: 120px;
+    padding: 40px 120px;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.call_btn {
+    border: solid 2px white;
+
+}
+
+.call_t_1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.call_t_2 {
+    margin: 0;
+    font-size: 18px;
+}
